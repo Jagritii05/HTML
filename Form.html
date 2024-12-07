@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1> Application Form </h1>
+    <div>
+        <form action="post">
+            <label for="Name"><b>Enter your Name</b></label>
+            <input type="text" id="Name" name="Name" placeholder="Enter your Name" autofocus>
+        </form>
+        <p><b>Select your Gender</b></p>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+    </div>
+    <div>
+        <p><b>Select your desired Branches</b></p>
+        <input type="checkbox" id="IT" name="Branch" value="yes">
+        <label for="IT">IT</label>
+        <input type="checkbox" id="ECE" name="Branch" value="yes">
+        <label for="ECE">ECE</label>
+        <input type="checkbox" id="CSE" name="Branch" value="yes">
+        <label for="CSE">CSE</label>
+        <input type="checkbox" id="EEE" name="Branch" value="yes">
+        <label for="EEE">EEE</label>
+    </div>
+    <br>
+    <div>
+        <label for="Birth Year"><b>Select your Birth Year</b></label>
+        <select name="Birth year" id="Birth Year">
+            <option value=" Select your Birth Year"> Select your Birth Year</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+        </select>
+    </div>
+    <hr>
+    <div>
+        <label for="comment">Enter your Comment</label>
+        <textarea name="comment" id="comment" rows="4" cols="50" autofocus></textarea>
+    </div>
+
+</body>
+
+</html>
